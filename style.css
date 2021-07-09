@@ -1,14 +1,71 @@
-.Banner{
+nav li{
+    list-style: none;
+
+padding: 10px;
+background-image: linear-gradient(rgb(236, 71, 236),rgb(250, 28, 120));
+float: left;
+border-radius: 20px;
+height: 20px;
+width: 80px;
+text-align: center;
+margin-top:22px ;
+margin-right: 20px;
+    
+}
+nav img:hover{
+    transform: scale(2);
+    background-image: linear-gradient(pink,white);
+    border: 2px dotted wheat;
+    border-radius: 50px;
+}
+.drop_down{
+    display: none;
+    position:absolute;
+
+    background-image: linear-gradient(pink,white);
+    margin-top: 2px;
+    border-radius: 20px;
+
+}
+
+.bar{
+    float: left;
+}
+#op{
+    margin-left: 600px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+  
+}
+nav li:hover{
+    background-image: linear-gradient(rgb(5, 238, 168),rgb(87, 241, 190));
+}
+nav>ul>li{
+    float: right;
+}
+nav{
+    height: 100px;
     background-color: rgb(86, 89, 250);
     
-    height: 70px;
-
-    color: rgb(255, 255, 255);
-    padding-left: 4%;
+    
 }
+#option{
+margin-left: 600px;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight: 800;
+    color:white;
+   
+}
+
+
 h1{
     color:rgb(102, 167, 252);
     font-size: 50px;
+    
 }
 h1:hover{
     color:rgb(241, 19, 167);
@@ -70,7 +127,7 @@ body{
 
 .btn{
     
-background-image: linear-gradient(rgb(236, 71, 236),rgb(243, 22, 188));
+    background-image: linear-gradient(rgb(236, 71, 236),rgb(250, 28, 120));
     text-align: center;
     border-radius: 18px;
     width: 30%;
@@ -197,4 +254,38 @@ float: left;
     margin: 5%;
     font-weight: 800;
     
+}
+
+
+.frm{
+   
+    background-image: linear-gradient(10deg,rgb(81, 207, 148),white,pink,pink);
+    font-weight: 800;
+    color: rgb(24, 10, 10);
+    width: 40%;
+    margin-left: 500px;
+ 
+    
+}
+
+.frm:hover{
+    background-image: linear-gradient(10deg,rgb(226, 57, 241),white,pink,pink);
+    
+
+}
+
+
+
+.fbody{
+    margin-top: 200px;
+    width: 500px;
+    border: 5px 5px 5px 5px rgb(236, 56, 212);
+    border-radius: 100px;
+  
+}
+
+
+
+.fbody .frm{
+    width: 100%;
 }
